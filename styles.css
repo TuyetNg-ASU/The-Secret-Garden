@@ -357,7 +357,7 @@ header img{
 @media screen and (min-width: 950px){
   header { display: grid; grid-template-columns: 120px 1fr 2fr; align-items: center; }
   .split-feature { display: grid; grid-template-columns: 1fr 1fr; }
-  .footer-container { display: grid; grid-template-columns: 1fr 1fr; max-width: 1000px; margin: 0 auto; }
+  .footer-container { display: grid; grid-template-columns: 1fr 1fr; max-width: 0 auto; margin: 0 auto; align-items: center; }
   .mobile { display: none; }
   .desktop { display: inline; }
 }
